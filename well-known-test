@@ -126,10 +126,6 @@
       "A256CBC-HS512"
     ],
     "claims_supported": [
-      "aud",
-      "sub",
-      "iss",
-      "auth_time",
       "name",
       "given_name",
       "family_name",
