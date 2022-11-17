@@ -126,23 +126,23 @@
     "A256CBC-HS512"
   ],
   "claims_supported": [
-    "spid_code",
+    "https://attributes.eid.gov.it/spid_code",
     "given_name",
     "family_name",
     "place_of_birth",
     "birthdate",
     "gender",
-    "company_name",
-    "company_fiscal_number",
-    "registered_office",
-    "fiscal_number",
-    "vat_number",
+    "https://attributes.eid.gov.it/company_name",
+    "https://attributes.eid.gov.it/company_fiscal_number",
+    "https://attributes.eid.gov.it/registered_office",
+    "https://attributes.eid.gov.it/fiscal_number",
+    "https://attributes.eid.gov.it/vat_number",
     "document_details",
     "phone_number",
     "email",
     "address",
-    "eid_exp_date",
-    "e_delivery_service"
+    "https://attributes.eid.gov.it/eid_exp_date",
+    "https://attributes.eid.gov.it/e_delivery_service"
   ],
   "claim_types_supported": [
     "normal"
