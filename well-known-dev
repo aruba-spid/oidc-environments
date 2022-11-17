@@ -1,3 +1,4 @@
+ERROR 
 {
   "issuer": "https://loginoidcspid.devops.aruba.it",
   "authorization_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/auth",
