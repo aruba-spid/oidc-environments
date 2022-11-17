@@ -1,6 +1,3 @@
-// 20221117105848
-// https://raw.githubusercontent.com/aruba-spid/oidc-environments/887bc202c49e8b065408f578a46cecf418c82bf6/well-known-dev
-
 {
   "issuer": "https://loginoidcspid.devops.aruba.it",
   "authorization_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/auth",
