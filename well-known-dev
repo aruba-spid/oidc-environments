@@ -1,5 +1,5 @@
 {
-  "issuer": "https://loginspid.aruba.it",
+  "issuer": "https://loginoidcspid.devops.aruba.it",
   "authorization_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/auth",
   "token_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/token",
   "introspection_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/token/introspect",
@@ -11,12 +11,7 @@
   "check_session_iframe": "https://loginoidcspid.devops.aruba.it/realms/spid/protocol/openid-connect/login-status-iframe.html",
   "grant_types_supported": [
     "authorization_code",
-    "implicit",
-    "refresh_token",
-    "password",
-    "client_credentials",
-    "urn:ietf:params:oauth:grant-type:device_code",
-    "urn:openid:params:grant-type:ciba"
+    "refresh_token"
   ],
   "acr_values_supported": [
     "https://www.spid.gov.it/SpidL1",
@@ -24,100 +19,45 @@
     "https://www.spid.gov.it/SpidL3"
   ],
   "response_types_supported": [
-    "code",
-    "none",
-    "id_token",
-    "token",
-    "id_token token",
-    "code id_token",
-    "code token",
-    "code id_token token"
+    "code"
   ],
   "subject_types_supported": [
-    "public",
     "pairwise"
   ],
   "id_token_signing_alg_values_supported": [
-    "PS384",
-    "ES384",
-    "RS384",
-    "HS256",
-    "HS512",
-    "ES256",
     "RS256",
-    "HS384",
-    "ES512",
-    "PS256",
-    "PS512",
     "RS512"
   ],
   "id_token_encryption_alg_values_supported": [
     "RSA-OAEP",
-    "RSA-OAEP-256",
-    "RSA1_5"
+    "RSA-OAEP-256"
   ],
   "id_token_encryption_enc_values_supported": [
-    "A256GCM",
-    "A192GCM",
-    "A128GCM",
     "A128CBC-HS256",
-    "A192CBC-HS384",
     "A256CBC-HS512"
   ],
   "userinfo_signing_alg_values_supported": [
-    "PS384",
-    "ES384",
-    "RS384",
-    "HS256",
-    "HS512",
-    "ES256",
     "RS256",
-    "HS384",
-    "ES512",
-    "PS256",
-    "PS512",
-    "RS512",
-    "none"
+    "RS512"
   ],
   "userinfo_encryption_alg_values_supported": [
     "RSA-OAEP",
-    "RSA-OAEP-256",
-    "RSA1_5"
+    "RSA-OAEP-256"
   ],
   "userinfo_encryption_enc_values_supported": [
-    "A256GCM",
-    "A192GCM",
-    "A128GCM",
     "A128CBC-HS256",
-    "A192CBC-HS384",
     "A256CBC-HS512"
   ],
   "request_object_signing_alg_values_supported": [
-    "PS384",
-    "ES384",
-    "RS384",
-    "HS256",
-    "HS512",
-    "ES256",
     "RS256",
-    "HS384",
-    "ES512",
-    "PS256",
-    "PS512",
-    "RS512",
-    "none"
+    "RS512"
   ],
   "request_object_encryption_alg_values_supported": [
     "RSA-OAEP",
-    "RSA-OAEP-256",
-    "RSA1_5"
+    "RSA-OAEP-256"
   ],
   "request_object_encryption_enc_values_supported": [
-    "A256GCM",
-    "A192GCM",
-    "A128GCM",
     "A128CBC-HS256",
-    "A192CBC-HS384",
     "A256CBC-HS512"
   ],
   "response_modes_supported": [
@@ -131,24 +71,10 @@
   ],
   "registration_endpoint": "https://loginoidcspid.devops.aruba.it/realms/spid/clients-registrations/openid-connect",
   "token_endpoint_auth_methods_supported": [
-    "private_key_jwt",
-    "client_secret_basic",
-    "client_secret_post",
-    "tls_client_auth",
-    "client_secret_jwt"
+    "private_key_jwt"
   ],
   "token_endpoint_auth_signing_alg_values_supported": [
-    "PS384",
-    "ES384",
-    "RS384",
-    "HS256",
-    "HS512",
-    "ES256",
     "RS256",
-    "HS384",
-    "ES512",
-    "PS256",
-    "PS512",
     "RS512"
   ],
   "introspection_endpoint_auth_methods_supported": [
@@ -224,14 +150,7 @@
   "claims_parameter_supported": true,
   "scopes_supported": [
     "openid",
-    "spid",
-    "roles",
-    "address",
-    "phone",
-    "web-origins",
-    "acr",
     "offline_access",
-    "microprofile-jwt",
     "email",
     "profile"
   ],
